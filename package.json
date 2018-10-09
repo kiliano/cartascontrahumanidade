@@ -1,0 +1,35 @@
+{
+  "name": "tio-do-pao",
+  "version": "1.1.0",
+  "description": "Bot para pedir o pãozinho de cada dia da Degrau Publicidade",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "web": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiliano/tio-do-pao.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "degrau",
+    "publicidade",
+    "pão"
+  ],
+  "author": "Kiliano Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiliano/tio-do-pao/issues"
+  },
+  "homepage": "https://github.com/kiliano/tio-do-pao#readme",
+  "dependencies": {
+    "axios": "0.17.1",
+    "moment": "2.20.1",
+    "telegraf": "3.17.3",
+    "tinify": "^1.6.0-beta.2",
+    "wordpress": "^1.4.1"
+  }
+}
